@@ -32,6 +32,7 @@ if(isset($_GET['page'])){
         default:
             include "dashboard.php";
             break;
+            
     }
 } else {
     include "dashboard.php";
